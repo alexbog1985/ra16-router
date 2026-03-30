@@ -2,9 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
-function Menu() {
-  return null;
-}
+import Menu from "./components/Menu/Menu.jsx";
 
 function HomePage() {
   return (
